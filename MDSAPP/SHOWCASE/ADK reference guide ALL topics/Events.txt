@@ -1,0 +1,130 @@
+Events¶
+Events are the fundamental units of information flow within the Agent Development Kit (ADK). They represent every significant occurrence during an agent's interaction lifecycle, from initial user input to the final response and all the steps in between. Understanding events is crucial because they are the primary way components communicate, state is managed, and control flow is directed.
+
+What Events Are and Why They Matter¶
+An Event in ADK is an immutable record representing a specific point in the agent's execution. It captures user messages, agent replies, requests to use tools (function calls), tool results, state changes, control signals, and errors.
+
+
+Python
+Java
+Technically, it's an instance of the google.adk.events.Event class, which builds upon the basic LlmResponse structure by adding essential ADK-specific metadata and an actions payload.
+
+
+# Conceptual Structure of an Event (Python)
+# from google.adk.events import Event, EventActions
+# from google.genai import types
+
+# class Event(LlmResponse): # Simplified view
+#     # --- LlmResponse fields ---
+#     content: Optional[types.Content]
+#     partial: Optional[bool]
+#     # ... other response fields ...
+
+#     # --- ADK specific additions ---
+#     author: str          # 'user' or agent name
+#     invocation_id: str   # ID for the whole interaction run
+#     id: str              # Unique ID for this specific event
+#     timestamp: float     # Creation time
+#     actions: EventActions # Important for side-effects & control
+#     branch: Optional[str] # Hierarchy path
+#     # ...
+
+Events are central to ADK's operation for several key reasons:
+
+Communication: They serve as the standard message format between the user interface, the Runner, agents, the LLM, and tools. Everything flows as an Event.
+
+Signaling State & Artifact Changes: Events carry instructions for state modifications and track artifact updates. The SessionService uses these signals to ensure persistence. In Python changes are signaled via event.actions.state_delta and event.actions.artifact_delta.
+
+Control Flow: Specific fields like event.actions.transfer_to_agent or event.actions.escalate act as signals that direct the framework, determining which agent runs next or if a loop should terminate.
+
+History & Observability: The sequence of events recorded in session.events provides a complete, chronological history of an interaction, invaluable for debugging, auditing, and understanding agent behavior step-by-step.
+
+In essence, the entire process, from a user's query to the agent's final answer, is orchestrated through the generation, interpretation, and processing of Event objects.
+
+Understanding and Using Events¶
+As a developer, you'll primarily interact with the stream of events yielded by the Runner. Here's how to understand and extract information from them:
+
+Note
+
+The specific parameters or method names for the primitives may vary slightly by SDK language (e.g., event.content() in Python, event.content().get().parts() in Java). Refer to the language-specific API documentation for details.
+
+Identifying Event Origin and Type¶
+Quickly determine what an event represents by checking:
+
+Who sent it? (event.author)
+'user': Indicates input directly from the end-user.
+'AgentName': Indicates output or action from a specific agent (e.g., 'WeatherAgent', 'SummarizerAgent').
+What's the main payload? (event.content and event.content.parts)
+
+Text: Indicates a conversational message. For Python, check if event.content.parts[0].text exists. For Java, check if event.content() is present, its parts() are present and not empty, and the first part's text() is present.
+Tool Call Request: Check event.get_function_calls(). If not empty, the LLM is asking to execute one or more tools. Each item in the list has .name and .args.
+Tool Result: Check event.get_function_responses(). If not empty, this event carries the result(s) from tool execution(s). Each item has .name and .response (the dictionary returned by the tool). Note: For history structuring, the role inside the content is often 'user', but the event author is typically the agent that requested the tool call.
+Is it streaming output? (event.partial) Indicates whether this is an incomplete chunk of text from the LLM.
+
+True: More text will follow.
+False or None/Optional.empty(): This part of the content is complete (though the overall turn might not be finished if turn_complete is also false).
+
+Python
+Java
+
+# Pseudocode: Basic event identification (Python)
+# async for event in runner.run_async(...):
+#     print(f"Event from: {event.author}")
+#
+#     if event.content and event.content.parts:
+#         if event.get_function_calls():
+#             print("  Type: Tool Call Request")
+#         elif event.get_function_responses():
+#             print("  Type: Tool Result")
+#         elif event.content.parts[0].text:
+#             if event.partial:
+#                 print("  Type: Streaming Text Chunk")
+#             else:
+#                 print("  Type: Complete Text Message")
+#         else:
+#             print("  Type: Other Content (e.g., code result)")
+#     elif event.actions and (event.actions.state_delta or event.actions.artifact_delta):
+#         print("  Type: State/Artifact Update")
+#     else:
+#         print("  Type: Control Signal or Other")
+
+Extracting Key Information¶
+Once you know the event type, access the relevant data:
+
+Text Content: Always check for the presence of content and parts before accessing text. In Python its text = event.content.parts[0].text.
+
+Function Call Details:
+
+
+Python
+Java
+
+calls = event.get_function_calls()
+if calls:
+    for call in calls:
+        tool_name = call.name
+        arguments = call.args # This is usually a dictionary
+        print(f"  Tool: {tool_name}, Args: {arguments}")
+        # Application might dispatch execution based on this
+
+Function Response Details:
+
+
+Python
+Java
+
+responses = event.get_function_responses()
+if responses:
+    for response in responses:
+        tool_name = response.name
+        result_dict = response.response # The dictionary returned by the tool
+        print(f"  Tool Result: {tool_name} -> {result_dict}")
+
+Identifiers:
+
+event.id: Unique ID for this specific event instance.
+event.invocation_id: ID for the entire user-request-to-final-response cycle this event belongs to. Useful for logging and tracing.
+Detecting Actions and Side Effects¶
+The event.actions object signals changes that occurred or should occur. Always check if event.actions and it's fields/ methods exists before accessing them.
+
+State Changes: Gives you a collection of key-value pairs that were modified in the session state during the step that produced this event.

@@ -1,0 +1,30 @@
+{
+  "name": "string",
+  "description": "",
+  "casefile_id": "string",
+  "parent_id": "",
+  "campaign": {
+    "type": "campaign",
+    "spec_version": "2.1",
+    "id": "string",
+    "created": "2025-08-21T14:13:58.329Z",
+    "modified": "2025-08-21T14:13:58.329Z",
+    "name": "string",
+    "description": "string",
+    "first_seen": "2025-08-21T14:13:58.329Z",
+    "last_seen": "2025-08-21T14:13:58.329Z"
+  },
+  "dossier": {
+    "type": "grouping",
+    "spec_version": "2.1",
+    "id": "string",
+    "created": "2025-08-21T14:13:58.330Z",
+    "modified": "2025-08-21T14:13:58.330Z",
+    "name": "string",
+    "description": "string",
+    "context": "string",
+    "object_refs": [
+      "string"
+    ]
+  }
+}

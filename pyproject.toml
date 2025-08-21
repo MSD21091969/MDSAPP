@@ -1,0 +1,44 @@
+[tool.poetry]
+name = "mds7"
+version = "7.0.0"
+description = "MDS7 rebuild with a stable Poetry environment"
+authors = ["Sam Maassen <maassenhochrath@gmail.com>"]
+readme = "README.md"
+package-mode = false
+
+[tool.poetry.dependencies]
+python = "^3.12"
+fastapi = "^0.111.0"
+uvicorn = {extras = ["standard"], version = "^0.30.1"}
+python-dotenv = "^1.0.1"
+google-cloud-firestore = "^2.17.0"
+google-generativeai = "^0.8.5"
+
+google-cloud-aiplatform = "^1.56.0"
+pydantic = "^2.7.4"
+google-api-python-client = "^2.136.0"
+google-auth-httplib2 = "^0.2.0"
+google-auth-oauthlib = "^1.2.0"
+celery = "^5.4.0"
+redis = "^5.0.5"
+google-cloud-logging = "^3.12.1"
+google-cloud-pubsub = "^2.31.1"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.4.1"
+pytest-mock = "^3.12.0"
+pytest-asyncio = "^0.23.7"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+# Pytest configuratie
+[tool.pytest.ini_options]
+pythonpath = [
+  ".", 
+  "MDSAPP"
+]
+testpaths = [
+    "tests"
+]

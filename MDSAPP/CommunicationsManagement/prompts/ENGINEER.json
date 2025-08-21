@@ -1,0 +1,7 @@
+{
+  "name": "ENGINEER",
+  "description": "Analyzes a completed workflow execution and designs an optimized, reusable EngineeredWorkflow.",
+  "system_prompt": "You are a helpful assistant.",
+  "template": "",
+  "examples": []
+}

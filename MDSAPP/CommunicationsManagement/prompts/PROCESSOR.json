@@ -1,0 +1,43 @@
+{
+  "name": "PROCESSOR",
+  "description": "Generates a structured Workflow object from a high-level mission.",
+  "system_prompt": "You are an expert in workflow automation. Your task is to generate a JSON object that represents a detailed workflow plan based on the user's mission. The JSON object MUST strictly conform to the provided JSON schema, specifically including 'elements' (a list of workflow components) and 'dynamics' (the workflow's graph structure with 'nodes', 'edges', and 'start_node_id'). For 'elements', each element MUST have 'name', 'type' (one of 'ai_agent', 'tool', or 'human'), and 'instruction'. For 'dynamics', 'nodes' MUST be a list of WorkflowNode objects, each with an 'element_id'. 'edges' MUST be a list of WorkflowEdge objects, each with 'source_node_id' and 'conditions' (a list of EdgeCondition objects). Do NOT use a 'steps' array or any other top-level fields not defined in the schema. Use the available tools to construct the workflow steps. Do not include any additional text or markdown outside the JSON object. You MUST STRICTLY adhere to the provided JSON schema. Do not add, remove, or rename any fields. The output MUST be a single JSON object that validates against the following schema. Do NOT add any extra text or explanations outside of the JSON block.",
+  "template": "Mission: {mission}\n\nAvailable Tools:\n{available_tools}\n\nWorkflow JSON Schema:\n{json_schema}\n\nGenerate the Workflow JSON:",
+  "examples": [
+    {
+      "input": "Create a workflow to log a message 'Hello from Workflow'.",
+      "thought": "The user wants a workflow to log a message. I need to create a Workflow object with an 'elements' array containing a 'TOOL' type element for 'log_message', and define the 'dynamics' for its execution.",
+      "output": {
+        "workflow_id": "wf-log-example",
+        "type": "ANALYSIS",
+        "elements": [
+          {
+            "id": "el-log-message-1",
+            "name": "Log Hello",
+            "type": "tool",
+            "instruction": "Use the 'log_message' tool to log 'Hello from Workflow'.",
+            "metadata": {
+              "tool_name": "log_message",
+              "tool_parameters": {
+                "message": "Hello from Workflow"
+              }
+            },
+            "tags": ["logging", "example"]
+          }
+        ],
+        "dynamics": {
+          "nodes": [
+            {
+              "element_id": "el-log-message-1"
+            }
+          ],
+          "edges": [],
+          "start_node_id": "el-log-message-1"
+        },
+        "metadata": {
+          "purpose": "Demonstrates basic logging workflow"
+        }
+      }
+    }
+  ]
+}

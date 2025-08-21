@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDS Chat Interface</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="app-container">
+        <div id="sidebar">
+            <h2>Casefiles</h2>
+            <div id="casefile-list">
+                <!-- Casefiles will be loaded here -->
+            </div>
+            <form id="new-casefile-form">
+                <input type="text" id="new-casefile-name" placeholder="New casefile name..." required>
+                <textarea id="new-casefile-desc" placeholder="Description..."></textarea>
+                <button type="submit">Create Casefile</button>
+            </form>
+        </div>
+        <div id="chat-container">
+            <div id="messages"></div>
+            <div id="input-container">
+                <input type="text" id="user-input" placeholder="Type your message...">
+                <button id="send-button">Send</button>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+{
+  "response": "De volgende cases hebben we: sdf, SAM, SAM, zxcxzcxzc, SAM, 1, default_casefile, 1, Lola, testtest, zxczxc, default_casefile, SAM, SAM, sdf, test, SAM, Real Estate Market Analysis 2025, test, string, 11111.",
+  "casefile_id": "FRANK ZAPPA"
+}
+
+en
+
+{
+  "response": "Ik kan die informatie op dit moment niet ophalen. Kunt u een specifiek casefile-ID opgeven of anderszins de case specificeren waarnaar u op zoek bent?",
+  "casefile_id": "FRANK ZAPPA"
+}
+
+casefile does not exist, llm responds and of course no event in firestore as should. But correctly when existing caseID#, event is stored in firest. 

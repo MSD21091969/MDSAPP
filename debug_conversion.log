@@ -1,0 +1,249 @@
+2025-08-21 16:05:07,470 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 16:05:07,518 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:05:07,889 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 16:05:14,004 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:07:59,382 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:09:47,757 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 16:09:47,819 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:09:48,115 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 16:10:04,014 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:10:12,592 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 16:10:12,641 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 16:10:21,801 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:19:46,971 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 16:19:47,040 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:19:47,333 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 16:20:50,538 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:20:50,901 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:34:21,869 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:34:22,199 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 16:35:44,901 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 16:35:44,984 - MDSAPP.core.managers.database_manager - INFO - 2 casefiles gevonden en geladen.
+2025-08-21 16:35:51,991 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 16:36:53,655 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:41:42,645 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 16:41:43,012 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3b65e416dc' saved to Firestore.
+2025-08-21 16:42:52,609 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:11:36,651 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:11:37,025 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:14:19,751 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:14:19,805 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:14:20,077 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:14:44,308 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:16:42,681 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:16:42,745 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:16:43,031 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:18:41,557 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:18:41,610 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:18:41,922 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:20:45,669 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:20:45,739 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:20:46,024 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:23:14,373 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:23:14,443 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:23:14,726 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:25:58,325 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:25:58,416 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:25:58,718 - MDSAPP.core.managers.database_manager - INFO - 1 casefiles gevonden en geladen.
+2025-08-21 17:26:19,433 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:27:06,981 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:27:49,851 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 17:28:11,066 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:30:13,224 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:30:13,311 - MDSAPP.core.managers.database_manager - INFO - 3 casefiles gevonden en geladen.
+2025-08-21 17:33:02,771 - MDSAPP.core.managers.database_manager - INFO - SentenceTransformer embedding model initialized.
+2025-08-21 17:33:02,780 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:33:02,780 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:33:02,847 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-e5e55b40c5' saved to Firestore.
+2025-08-21 17:33:02,847 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-e5e55b40c5' saved to Firestore.
+2025-08-21 17:42:30,355 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:42:30,434 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:42:30,723 - MDSAPP.core.managers.database_manager - INFO - 4 casefiles gevonden en geladen.
+2025-08-21 17:47:29,038 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 17:50:09,265 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-519f77bc99' successfully deleted from Firestore.
+2025-08-21 17:50:57,556 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-963a0f0a39' successfully deleted from Firestore.
+2025-08-21 17:51:31,835 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-d6269b7e4e' successfully deleted from Firestore.
+2025-08-21 17:51:56,698 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:52:26,729 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:52:30,216 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:52:55,461 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:53:03,840 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:53:34,107 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 17:53:52,639 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:53:52,726 - MDSAPP.core.managers.database_manager - INFO - 4 casefiles gevonden en geladen.
+2025-08-21 17:53:56,079 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:53:56,125 - MDSAPP.core.managers.database_manager - INFO - 4 casefiles gevonden en geladen.
+2025-08-21 17:53:59,671 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-bc7bf8161e' saved to Firestore.
+2025-08-21 17:54:08,226 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-9e14bb2143' saved to Firestore.
+2025-08-21 17:54:13,545 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 17:54:18,033 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:54:18,081 - MDSAPP.core.managers.database_manager - INFO - 7 casefiles gevonden en geladen.
+2025-08-21 17:54:19,608 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:54:19,650 - MDSAPP.core.managers.database_manager - INFO - 7 casefiles gevonden en geladen.
+2025-08-21 17:54:20,475 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:54:20,515 - MDSAPP.core.managers.database_manager - INFO - 7 casefiles gevonden en geladen.
+2025-08-21 17:54:21,206 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:54:21,243 - MDSAPP.core.managers.database_manager - INFO - 7 casefiles gevonden en geladen.
+2025-08-21 17:54:25,140 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-13e3b6d76f' saved to Firestore.
+2025-08-21 17:57:05,084 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:57:05,155 - MDSAPP.core.managers.database_manager - INFO - 8 casefiles gevonden en geladen.
+2025-08-21 17:57:06,692 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:57:06,742 - MDSAPP.core.managers.database_manager - INFO - 8 casefiles gevonden en geladen.
+2025-08-21 17:57:07,629 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:57:07,681 - MDSAPP.core.managers.database_manager - INFO - 8 casefiles gevonden en geladen.
+2025-08-21 17:59:18,674 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:59:18,727 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 17:59:19,048 - MDSAPP.core.managers.database_manager - INFO - 8 casefiles gevonden en geladen.
+2025-08-21 17:59:23,970 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 17:59:24,069 - MDSAPP.core.managers.database_manager - INFO - 8 casefiles gevonden en geladen.
+2025-08-21 17:59:36,992 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-3444ba2e50' saved to Firestore.
+2025-08-21 18:00:16,425 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 18:00:55,852 - MDSAPP.core.managers.database_manager - INFO - Casefile 'test' saved to Firestore.
+2025-08-21 18:02:55,553 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:04:25,722 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:08:18,898 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 18:08:19,261 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:08:20,787 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:08:45,442 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:08:47,470 - MDSAPP.core.managers.database_manager - INFO - Casefile 'string' saved to Firestore.
+2025-08-21 18:09:45,158 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:09:45,221 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:09:45,965 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:09:46,014 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:10:45,896 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:10:47,229 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:13:07,961 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:13:08,053 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 18:13:08,391 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:13:10,605 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:13:10,755 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:13:12,279 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:13:12,342 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:13:13,446 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:13:13,500 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:13:38,030 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:13:39,274 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:14:27,318 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:14:29,425 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:15:37,137 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 18:15:37,529 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:15:41,889 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:16:48,676 - MDSAPP.core.managers.database_manager - INFO - Successfully connected to Firestore.
+2025-08-21 18:16:49,037 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:16:50,591 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:17:17,745 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:17:19,261 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:17:19,341 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:17:22,456 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:17:52,006 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:17:53,817 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' saved to Firestore.
+2025-08-21 18:18:06,147 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:18:06,222 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:20:35,119 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:20:35,190 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:21:47,608 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:21:47,666 - MDSAPP.core.managers.database_manager - INFO - 9 casefiles gevonden en geladen.
+2025-08-21 18:22:11,868 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-bce5b79790' saved to Firestore.
+2025-08-21 18:24:27,419 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:24:27,491 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:24:28,494 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:24:28,584 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:24:29,803 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:24:29,903 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:24:33,630 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:24:33,702 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:27:38,457 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:27:38,537 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:27:56,955 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-0d672100f0' saved to Firestore.
+2025-08-21 18:31:35,514 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:35,585 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:36,029 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:36,114 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:36,611 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:36,687 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:36,894 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:36,968 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:37,208 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:37,290 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:39,952 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:40,022 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:40,672 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:40,728 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:31:41,408 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:31:41,467 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:32:57,376 - MDSAPP.core.managers.database_manager - INFO - Casefile 'FRANK ZAPPA' successfully deleted from Firestore.
+2025-08-21 18:33:02,954 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:33:03,025 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:34:29,813 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:34:29,896 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:34:45,470 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:34:45,530 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:34:49,855 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:34:49,929 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:36:42,023 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:36:42,094 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:36:42,487 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:36:42,553 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:37:46,066 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:37:46,147 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:37:46,944 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:37:47,011 - MDSAPP.core.managers.database_manager - INFO - 10 casefiles gevonden en geladen.
+2025-08-21 18:37:53,702 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-f64214e9d2' saved to Firestore.
+2025-08-21 18:42:00,434 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:42:00,569 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:42:01,599 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:42:01,665 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:42:09,902 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:42:09,964 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:42:11,467 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:42:11,532 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:42:11,867 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:42:11,918 - MDSAPP.core.managers.database_manager - INFO - 11 casefiles gevonden en geladen.
+2025-08-21 18:48:12,340 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-e49f81413b' saved to Firestore.
+2025-08-21 18:48:25,258 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-63e00e6745' saved to Firestore.
+2025-08-21 18:48:32,124 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-853b2a2f53' saved to Firestore.
+2025-08-21 18:48:36,504 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-e06ab1900e' saved to Firestore.
+2025-08-21 18:48:56,957 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-a89a8f3128' saved to Firestore.
+2025-08-21 18:48:58,441 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-0621fc1cb6' saved to Firestore.
+2025-08-21 18:49:00,801 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-983eb588bb' saved to Firestore.
+2025-08-21 18:49:08,584 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:49:08,662 - MDSAPP.core.managers.database_manager - INFO - 18 casefiles gevonden en geladen.
+2025-08-21 18:49:20,159 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-661b76f8b8' saved to Firestore.
+2025-08-21 18:49:22,294 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-bf57b41f3d' saved to Firestore.
+2025-08-21 18:49:36,704 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-9895113c64' saved to Firestore.
+2025-08-21 18:55:15,212 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:55:15,284 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 18:57:21,326 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-13e3b6d76f' saved to Firestore.
+2025-08-21 18:57:22,783 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:57:22,855 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 18:57:24,459 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-13e3b6d76f' saved to Firestore.
+2025-08-21 18:59:05,368 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-13e3b6d76f' saved to Firestore.
+2025-08-21 18:59:07,493 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 18:59:07,544 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 18:59:09,056 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-13e3b6d76f' saved to Firestore.
+2025-08-21 19:03:58,139 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 19:03:58,316 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 19:04:10,641 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-0621fc1cb6' saved to Firestore.
+2025-08-21 19:04:11,822 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-0621fc1cb6' saved to Firestore.
+2025-08-21 19:05:25,586 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:05:27,745 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:05:36,925 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:05:41,102 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:05:51,936 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:05:53,920 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 19:05:54,007 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 19:05:56,122 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:06:11,870 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:06:13,502 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 19:06:13,590 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 19:06:18,576 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:06:40,633 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:06:43,319 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:42:13,425 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:42:14,506 - MDSAPP.core.managers.database_manager - INFO - Alle casefiles worden opgehaald uit de 'casefiles' collectie.
+2025-08-21 19:42:14,592 - MDSAPP.core.managers.database_manager - INFO - 21 casefiles gevonden en geladen.
+2025-08-21 19:42:15,993 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:43:31,848 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:43:33,313 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:43:42,084 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.
+2025-08-21 19:43:44,608 - MDSAPP.core.managers.database_manager - INFO - Casefile 'case-318febd74f' saved to Firestore.

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MDS Settings</title>
+    <style>
+        body { font-family: sans-serif; }
+        .container { max-width: 800px; margin: 0 auto; padding: 20px; }
+        .prompt { border: 1px solid #ccc; padding: 10px; margin-bottom: 10px; }
+        .prompt h3 { margin-top: 0; }
+        .form-group { margin-bottom: 10px; }
+        label { display: block; }
+        input, textarea { width: 100%; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>MDS Settings</h1>
+
+        <h2>Prompts</h2>
+        <div id="prompts-list"></div>
+
+        <hr>
+
+        <h2>Create New Prompt</h2>
+        <form id="create-prompt-form">
+            <div class="form-group">
+                <label for="agent_name">Agent Name</label>
+                <input type="text" id="agent_name" required>
+            </div>
+            <div class="form-group">
+                <label for="task_name">Task Name</label>
+                <input type="text" id="task_name" required>
+            </div>
+            <div class="form-group">
+                <label for="version">Version</label>
+                <input type="number" id="version" value="1" required>
+            </div>
+            <div class="form-group">
+                <label for="template">Template</label>
+                <textarea id="template" rows="10" required></textarea>
+            </div>
+            <button type="submit">Create Prompt</button>
+        </form>
+    </div>
+
+    <script>
+        const promptsList = document.getElementById('prompts-list');
+        const createPromptForm = document.getElementById('create-prompt-form');
+
+        async function fetchPrompts() {
+            const response = await fetch('/api/v1/settings/prompts');
+            const prompts = await response.json();
+            promptsList.innerHTML = '';
+            prompts.forEach(prompt => {
+                const promptEl = document.createElement('div');
+                promptEl.className = 'prompt';
+                promptEl.innerHTML = `
+                    <h3>${prompt.agent_name} - ${prompt.task_name} (v${prompt.version})</h3>
+                    <p><strong>ID:</strong> ${prompt.id}</p>
+                    <textarea rows="10" style="width: 100%;">${prompt.template}</textarea>
+                    <button onclick="updatePrompt('${prompt.id}')">Update</button>
+                    <button onclick="deletePrompt('${prompt.id}')">Delete</button>
+                `;
+                promptsList.appendChild(promptEl);
+            });
+        }
+
+        async function createPrompt(event) {
+            event.preventDefault();
+            const agent_name = document.getElementById('agent_name').value;
+            const task_name = document.getElementById('task_name').value;
+            const version = parseInt(document.getElementById('version').value);
+            const template = document.getElementById('template').value;
+
+            const response = await fetch('/api/v1/settings/prompts', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ agent_name, task_name, version, template })
+            });
+
+            if (response.ok) {
+                fetchPrompts();
+                createPromptForm.reset();
+            } else {
+                alert('Error creating prompt.');
+            }
+        }
+
+        async function updatePrompt(id) {
+            const promptEl = event.target.parentElement;
+            const template = promptEl.querySelector('textarea').value;
+            const agent_name = promptEl.querySelector('h3').textContent.split(' - ')[0];
+            const task_name = promptEl.querySelector('h3').textContent.split(' - ')[1].split(' (v')[0];
+            const version = parseInt(promptEl.querySelector('h3').textContent.split(' (v')[1].replace(')', ''));
+
+            const response = await fetch(`/api/v1/settings/prompts/${id}`, {
+                method: 'PUT',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ agent_name, task_name, version, template })
+            });
+
+            if (response.ok) {
+                fetchPrompts();
+            } else {
+                alert('Error updating prompt.');
+            }
+        }
+
+        async function deletePrompt(id) {
+            if (confirm('Are you sure you want to delete this prompt?')) {
+                const response = await fetch(`/api/v1/settings/prompts/${id}`, {
+                    method: 'DELETE'
+                });
+
+                if (response.ok) {
+                    fetchPrompts();
+                } else {
+                    alert('Error deleting prompt.');
+                }
+            }
+        }
+
+        createPromptForm.addEventListener('submit', createPrompt);
+        fetchPrompts();
+    </script>
+</body>
+</html>

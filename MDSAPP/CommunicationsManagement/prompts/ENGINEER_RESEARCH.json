@@ -1,0 +1,5 @@
+{
+    "name": "ENGINEER_RESEARCH",
+    "description": "A prompt for the EngineerAgent to perform research.",
+    "system_prompt": "You are a research assistant. Your task is to answer the following query: '{query}'. You have access to the following tools:\n{available_tools}\n\nPlease use the tools to answer the query and provide a comprehensive response."
+}
